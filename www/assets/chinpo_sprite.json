@@ -1,0 +1,36 @@
+{"frames": {
+
+"escarabajobot01.png":
+{
+	"frame": {"x":1,"y":1,"w":66,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":0,"w":66,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+"escarabajobot02.png":
+{
+	"frame": {"x":1,"y":155,"w":66,"h":74},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":1,"w":66,"h":74},
+	"sourceSize": {"w":75,"h":75}
+},
+"escarabajobot03.png":
+{
+	"frame": {"x":1,"y":78,"w":66,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":0,"w":66,"h":75},
+	"sourceSize": {"w":75,"h":75}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "escarabajobot_sprite.png",
+	"format": "RGBA8888",
+	"size": {"w":68,"h":230},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:afd35cbe31ff96502dff3e24c469e8fa:6aa8fc61155365e110eb05c386d1c5bc:00cb05265c7aa9a2860c2ad8491f51ae$"
+}
+}

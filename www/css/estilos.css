@@ -1,0 +1,89 @@
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.fondogradient {
+background: rgba(13,101,184,1);
+background: -moz-linear-gradient(top, rgba(13,101,184,1) 0%, rgba(8,10,13,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,101,184,1)), color-stop(100%, rgba(8,10,13,1)));
+background: -webkit-linear-gradient(top, rgba(13,101,184,1) 0%, rgba(8,10,13,1) 100%);
+background: -o-linear-gradient(top, rgba(13,101,184,1) 0%, rgba(8,10,13,1) 100%);
+background: -ms-linear-gradient(top, rgba(13,101,184,1) 0%, rgba(8,10,13,1) 100%);
+background: linear-gradient(to bottom, rgba(13,101,184,1) 0%, rgba(8,10,13,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d65b8', endColorstr='#080a0d', GradientType=0 );
+}  
+
+@font-face {
+    font-family: pokemonfont;
+    src: url(../fonts/PokemonSolid.ttf);
+}
+
+#bienvenida {	
+	text-align: center;
+	background-color: black;
+	width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	position: fixed;
+	color: white;
+}
+
+#bienvenida h1 {
+	font-size: 3em;
+	font-family: pokemonfont;
+  letter-spacing: 5px;
+	color: #fec909;
+	-webkit-text-stroke-color: #314691;
+  	-webkit-text-stroke-width: 3.00px; 
+  	text-shadow: rgb(23, 41, 107) 0px 1px 0px, rgb(23, 41, 107) 0px 2px 0px, rgb(23, 41, 107) 0px 3px 0px, rgb(23, 41, 107) 0px 4px 0px, rgb(23, 41, 107) 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 6px 1px, rgba(0, 0, 0, 0.1) 0px 0px 5px, rgba(0, 0, 0, 0.3) 0px 1px 3px, rgba(0, 0, 0, 0.15) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.1) 0px 20px 20px;
+}
+
+#bienvenida h3 {
+  font-size: 1.5em;
+  color: #fec909;  
+}
+
+.botonstart {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #ffffff);
+  background-image: -moz-linear-gradient(top, #d93434, #ffffff);
+  background-image: -ms-linear-gradient(top, #d93434, #ffffff);
+  background-image: -o-linear-gradient(top, #d93434, #ffffff);
+  background-image: linear-gradient(to bottom, #d93434, #ffffff);
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 0px 2px 7px #666666;
+  -moz-box-shadow: 0px 2px 7px #666666;
+  box-shadow: 0px 2px 7px #666666;
+  color: #000000;
+  font-size: 20px;
+  padding: 18px;
+  text-decoration: none;
+}
+
+.botonstart:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #d93434);
+  background-image: -moz-linear-gradient(top, #ffffff, #d93434);
+  background-image: -ms-linear-gradient(top, #ffffff, #d93434);
+  background-image: -o-linear-gradient(top, #ffffff, #d93434);
+  background-image: linear-gradient(to bottom, #ffffff, #d93434);
+  text-decoration: none;
+}
+
+#phaser {	
+	/*
+	background-color: green;
+	background-image: url("img/background.png");
+    background-repeat: repeat;
+    */
+}
+
+.oculto {
+	display: none;
+}
